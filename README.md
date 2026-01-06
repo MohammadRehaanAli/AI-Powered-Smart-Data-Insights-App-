@@ -26,61 +26,45 @@ CSV upload support
 
 # **Key Features**
 
-Upload CSV files through a web interface
-
-Calculate total revenue, total units sold, and total orders
-
-Revenue trend visualization
-
-Category-wise revenue breakdown
-
-Anomaly detection using statistical methods
-
-AI-generated insight summary
-
-Cloud-native deployment using Google Cloud Run
+- Upload CSV files through a web interface
+- Calculate total revenue, total units sold, and total orders
+- Revenue trend visualization
+- Category-wise revenue breakdown
+- Anomaly detection using statistical methods
+- AI-generated insight summary
+- Cloud-native deployment using Google Cloud Run
 
 # **Tech Stack**
 
 **Backend**
 
-Python
-FastAPI
-Data & AI
-Google BigQuery
-Google Cloud Storage
-Vertex AI (Gemini)
+- Python
+- FastAPI
+- Data & AI
+- Google BigQuery
+- Google Cloud Storage
+- Vertex AI (Gemini)
 
 **Frontend**
-HTML
-CSS
-JavaScript
-Cloud
-Docker
-Google Cloud Run
-Google Cloud Build
-Project Structure
+- HTML
+- CSS
+- JavaScript
+- Cloud
+- Docker
+- Google Cloud Run
+- Google Cloud Build
+- Project Structure
 
-AI-Powered-Smart-Data-Insights-App
-│
-├── frontend/
-│   ├── index.html        # Frontend UI
-│
-├── main.py               # FastAPI backend logic
-├── requirements.txt      # Python dependencies
-├── Dockerfile            # Docker configuration
-├── README.md
-
-# **CSV File Requirements
+# CSV File Requirements
 
 The uploaded CSV file must contain the following columns:
 
-order_id
-order_date
-region
-product_category
-units_sold
-unit_price**
+- order_id
+- order_date
+- region
+- product_category
+- units_sold
+- unit_price**
 
 
 Example:
@@ -102,11 +86,10 @@ User uploads a CSV file
 The application is containerized using Docker and deployed on Google Cloud Run for scalability and availability.
 
 # **Use Cases**
-Business data analysis,
-
-Sales performance tracking,
-BI and analytics demos,
-Academic and portfolio projects,
+- Business data analysis
+- Sales performance tracking
+- BI and analytics demos
+- Academic and portfolio projects
 
 **Author**
 Mohammad Rehaan Ali
