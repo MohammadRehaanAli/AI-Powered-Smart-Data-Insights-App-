@@ -27,11 +27,17 @@ CSV upload support
 # **Key Features**
 
 Upload CSV files through a web interface
+
 Calculate total revenue, total units sold, and total orders
+
 Revenue trend visualization
+
 Category-wise revenue breakdown
+
 Anomaly detection using statistical methods
+
 AI-generated insight summary
+
 Cloud-native deployment using Google Cloud Run
 
 # **Tech Stack**
@@ -96,10 +102,11 @@ User uploads a CSV file
 The application is containerized using Docker and deployed on Google Cloud Run for scalability and availability.
 
 # **Use Cases**
-Business data analysis
-Sales performance tracking
-BI and analytics demos
-Academic and portfolio projects
+Business data analysis,
+
+Sales performance tracking,
+BI and analytics demos,
+Academic and portfolio projects,
 
 **Author**
 Mohammad Rehaan Ali
