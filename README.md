@@ -12,25 +12,19 @@ Analyzing large datasets manually is time-consuming and requires technical exper
 
 This project aims to simplify data analysis by providing an automated system that converts raw CSV data into structured insights and summaries.
 
-**Solution**
+# **Solution**
 
 The application provides:
 
 CSV upload support
+- Automatic data loading into BigQuery
+- KPI calculation using SQL
+- Trend and category analysis
+- Basic anomaly detection
+- AI-generated text summary of insights
+- All processing happens on the cloud, making the system scalable and easy to use.
 
-Automatic data loading into BigQuery
-
-KPI calculation using SQL
-
-Trend and category analysis
-
-Basic anomaly detection
-
-AI-generated text summary of insights
-
-All processing happens on the cloud, making the system scalable and easy to use.
-
-**Key Features**
+# **Key Features**
 
 Upload CSV files through a web interface
 Calculate total revenue, total units sold, and total orders
@@ -40,7 +34,7 @@ Anomaly detection using statistical methods
 AI-generated insight summary
 Cloud-native deployment using Google Cloud Run
 
-**Tech Stack**
+# **Tech Stack**
 
 **Backend**
 
@@ -71,7 +65,7 @@ AI-Powered-Smart-Data-Insights-App
 ├── Dockerfile            # Docker configuration
 ├── README.md
 
-**CSV File Requirements
+# **CSV File Requirements
 
 The uploaded CSV file must contain the following columns:
 
@@ -88,7 +82,7 @@ order_id,order_date,region,product_category,units_sold,unit_price
 101,2025-01-01,North,Electronics,2,15000
 102,2025-01-02,South,Clothing,5,1200
 
-**How the Application Works**
+# **How the Application Works**
 
 User uploads a CSV file
 - File is stored in Google Cloud Storage
@@ -98,10 +92,10 @@ User uploads a CSV file
 - Vertex AI generates a text-based summary
 - Results are displayed on the dashboard
 
-**Deployment**
+# **Deployment**
 The application is containerized using Docker and deployed on Google Cloud Run for scalability and availability.
 
-**Use Cases**
+# **Use Cases**
 Business data analysis
 Sales performance tracking
 BI and analytics demos
