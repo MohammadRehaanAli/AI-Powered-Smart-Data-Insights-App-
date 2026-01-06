@@ -6,7 +6,7 @@ This project is a web-based data analytics application that allows users to uplo
 
 The backend is built using FastAPI and runs on Google Cloud Run. Data processing and aggregation are handled using BigQuery, and natural-language insights are generated using Vertex AI.
 
-**Problem Statement**
+# **Problem Statement**
 
 Analyzing large datasets manually is time-consuming and requires technical expertise. Many users struggle to quickly understand trends, key metrics, and unusual patterns in their data.
 
